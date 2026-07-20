@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, #eef5ff, #dceeff);
+}
+
+.container {
+  max-width: 950px;
+  width: 90%;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* ---------- Header ---------- */
+
+h1 {
+  color: #2c3e50;
+  font-size: 52px;
+  margin: 0;
+}
+
+h2 {
+  color: #3498db;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 18px 0 0 0;
+}
+
+.creator {
+  color: #666;
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px 0 35px 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 0 0 30px 0;
+  color: #555;
+}
+
+/* ---------- Form ---------- */
+
+input,
+select {
+  width: 100%;
+  margin: 12px 0;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #27ae60;
+  box-shadow: 0 0 6px rgba(39, 174, 96, 0.3);
+}
+
+/* ---------- Buttons ---------- */
+
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #27ae60;
+  color: white;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #1e8449;
+}
+
+.resetButton {
+  background: #7f8c8d;
+}
+
+.resetButton:hover {
+  background: #5f6a6a;
+}
+
+/* ---------- Workout Result ---------- */
+
+.workout {
+  margin-top: 40px;
+  text-align: left;
+  background: #f8fbff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.workout h1,
+.workout h2,
+.workout h3 {
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.workout p {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.workout ul {
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+.workout li {
+  margin-bottom: 8px;
+}
+
+.workout strong {
+  color: #3498db;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
