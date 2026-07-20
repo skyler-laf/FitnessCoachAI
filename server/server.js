@@ -11,6 +11,10 @@ app.use(express.json());
 const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
+console.log(
+  "OPENAI_API_KEY loaded:",
+  process.env.OPENAI_API_KEY ? "YES" : "NO"
+);
 
 app.post("/workout", async (req, res) => {
   const {

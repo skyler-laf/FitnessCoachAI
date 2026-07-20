@@ -21,7 +21,7 @@ function App() {
     setWorkout("");
 
     try {
-      const response = await fetch("https://fitnesscoachai.onrender.com", {
+      const response = await fetch("https://fitnesscoachai.onrender.com/workout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
